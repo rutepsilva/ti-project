@@ -1,0 +1,508 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-lseft:3%;}
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+@media(max-width: 768px) {
+    #fcontainer{width:100%;margin: 0;border: none;}
+
+}
+/* IMG */
+img{max-width: 100%;}
+
+
+/* HTML */
+html {
+    font-size: 55%;
+}
+@media (min-width: 640px) {
+    html {
+        font-size: 0.5rem;
+    }
+}
+@media (min-width: 960px) {
+    html {
+        font-size: 0.7rem;
+    }
+}
+@media (min-width: 1100px) {
+    html {
+        font-size: 1.1rem;
+    }
+}
+@media (min-width:480px) {
+    .button_1 button {
+        top: -1px
+    }
+}
+@media (min-width:480px) {
+    .newsletter input {
+        width: 331px
+    }
+}
+
+/*CSS*/
+body{
+    margin:0px;
+}
+
+/* Header */
+header{
+    padding-bottom:100px;
+}
+/*Tittle*/
+.container{
+    width: 80%;
+    height: 30px;
+    margin-left: 10px;
+    color: #E4082B;
+
+}
+
+.container p{
+
+    font-family: 'Lora', serif;
+}
+
+/*Menu*/
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    font-family: Lora,serif;
+
+}
+
+
+.main-nav a{
+    display: inline-block;
+    color: #E4082B;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.nav-style:hover{
+    border: 1px solid #E4082B;
+}
+
+/*Search Bar*/
+#bar{
+    position: absolute;
+    right: 30px;
+    top: 100px;
+}
+
+.logo img{
+    width: 15%;
+    height: auto;
+    float: left;
+    padding: 0;
+}
+
+/* Showcase( video ) */
+#showcase{
+    position: relative;
+    background:url("videos/metgala.mp4");
+    text-align:center;
+    background-size: auto;
+}
+
+/* Events e Blogs Table*/
+
+.itable th{
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+/*.itable h4:hover{
+    font-size: 20px;
+    color: ;
+}
+*/
+.itable p {
+    margin-left: 50px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.itable h4{
+    margin-left: 50px;
+    font-family: 'Lora', serif;
+    color: grey;
+    text-align: center;
+
+}
+
+/* Footer(contacts table) */
+.ctable{
+    width: 100%;
+}
+
+.ctable h4{
+    font-family: 'Lora', serif;
+    color: #E4082B;
+}
+.ctable th {
+    font-family: 'Catamaran', sans-serif;
+    color: #E4082B;
+}
+
+.ctable td,th{
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+}
+
+.ctable p a{
+    margin: 20px;
+    color: dimgray;
+    text-decoration: none;
+    text-align: right;
+    padding: 5px 20px;
+}
+
+.ctable p a:hover {
+    border: 1px solid dimgray;
+}
+
+/* Footer (Newsletter)*/
+.newsletter{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    color: #E4082B;
+
+}
+#fcontainer{
+    padding: 0.5px;
+    position: relative;
+    background:darkred;
+}
+
+#fcontainer h3{
+    float: right;
+    color: white;
+}
+
+#fcontainer form {
+    position: static;
+    float: right;
+    margin-top:25px;
+
+}
+
+#fcontainer input[type="email"]{
+    position: relative;
+    font-family: 'Lora', serif;
+    height:25px;
+}
+
+.button_1{
+    font-family: 'Lora', serif;
+    height:38px;
+    background-color: red;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:white;
+}
+
+.icons{
+    position: relative;
+    list-style: none;
+    margin: 20px;
+}
+.icons li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+}
+.icons li a{
+    padding: 1px 1px;
+}
+
+
+/*About The Met */
+#showcase2 {
+    min-height: 200px;
+    /*background:url("images/aboutuss.jpg");*/
+    text-align: center;
+    background-size: 700px 300px;
+}
+
+.about h1{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 35px;
+    margin-left: 50px;
+    color: #E4082B;
+}
+
+.about p{
+    font-family: 'Catamaran', sans-serif;
+    margin: 50px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+/* Events */
+.Events h1{
+    font-family: 'Lora', sans-serif;
+    color: #E4082B;
+    margin: 10px;
+}
+.boxes{
+    position: relative;
+    width: auto;
+    height: auto;
+
+}
+
+.boxes h2{
+    font-family: 'Catamaran', sans-serif;
+}
+.boxes p{
+    margin: 15px;
+    font-family: 'Catamaran', sans-serif;
+}
+.boxes .text{
+    position: relative;
+    width: auto;
+    height: 300px;
+    margin: 10px;
+    background-color: lightgrey;
+}
+.boxes .text:hover{
+    border-left: 5px solid darkred;
+    color: black;
+    background-color: lightcoral;
+    /*h1{ color: white;} */
+}
+.boxes .text .lines{
+    position: absolute;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/*Exhibitons*/
+/* #1 Article (Obsession Nudes)*/
+
+
+#hero1 {
+    background: url("images/exibitions/nudes.jpg") fixed center center;
+    background-size:120%;
+}
+/* #2 Article (Huma Bhabha)*/
+#hero2{
+    background: url("images/exibitions/huma.jpg") fixed center center;
+}
+/* #3 Article (Delacroix)*/
+#hero3{
+    background: url("images/exibitions/delacroix.jpg") fixed center center;
+}
+/* #4 Article (Odissey)*/
+#hero4{
+    background: url("images/exibitions/odissey.jpg") fixed center center;
+}
+
+.hero, .content{
+    text-align:center;
+    position:relative;
+    margin-top: 30px;
+    width: 100%; /* Tamanho do texto*/
+}
+
+/* Background texto(Exhibitions)*/
+.inner{
+    min-height:550px; /* tamanho do background do texto*/
+    position: relative;
+}
+.vazio{
+    min-height: 100px;
+}
+
+/* Cores do background do texto (Exhibitions) */
+.hero .inner {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Posiçao do texto (Exhibitions)*/
+.copy{
+    position:absolute;
+    top: 50px;
+    height:100px;
+    width:100%;
+}
+
+
+.copy h1{
+    margin:0;
+    font-family: 'Catamaran', sans-serif;
+    font-weight:400;
+    font-size:32px;
+    padding:0 20px;
+}
+
+.copy h3{
+    margin:0;
+    font-family:'Catamaran', sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    padding:0 20px;
+}
+
+.copy h4{
+    margin:0;
+    font-family: 'Catamaran', sans-serif;
+    font-weight:400;
+    font-size:16px;
+    padding:0 20px;
+}
+
+/* Cor do texto (Exhibitions)*/
+.hero h1,h3,h4, .hero p{
+    color:white;
+    font-family: 'Catamaran', sans-serif;
+}
+
+/*COntacts page*/
+.contact-tittle h1{
+    position: relative;
+    margin-left: 45px;
+    font-family: 'Catamaran',sans-serif;
+    color: #E4082B;
+}
+
+.contact-tittle p{
+    position: relative;
+    margin-left: 45px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+
+.contact-form{
+    position: relative;
+    width: 80%;
+    font-family: 'Catamaran', sans-serif;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: darkred;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 16px;
+}
+
+.form-control {
+    width: 80%;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: normal;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #E4082B;
+    color: black;
+    margin-left: 40px;
+    margin-bottom: 16px;
+}
+
+.form-group{
+    position: relative;
+    width: 80%;
+    font-family: 'Catamaran', sans-serif;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #E4082B;
+    margin-left: 40px;
+    margin-bottom: 16px;
+
+}
+.submit{
+    position: relative;
+    background: #E4082B;
+    color: white;
+    border-color: transparent;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 20px;
+}
+.submit:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+
+    border: none;
+    outline: none;
+    color: #E4082B;
+    background-color: inherit;
+    font-family: Lora, serif;
+}
+
+.dropdown .dropbtn a:hover{
+    border:none;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: red;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+.show {
+    display: block;
+}
+
+.test{
+    display: inline;
+    text-align: center;
+    color: #E4082B;
+    font-size: 16px;
+}
+
+figure {
+    width: 100%;
+    text-align: center;
+
+}
+
+figure img:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}

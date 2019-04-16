@@ -1,0 +1,132 @@
+<!--
+Para efeitos académicos, relativos à cadeira de Tecnologias da Internet
+
+-->
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jéssica Vidas & Rute Silva">
+    <meta name="description" content="MET Website">
+    <title>MET 1</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran|Lora" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="row">
+        <!--Logo-->
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/themet.png"></a>
+        </div>
+    </div>
+    <!--Menu-->
+    <ul class="main-nav">
+        <a href="index.html"  class="nav-style">HOME</a>
+        <a href="exhibitions.html"  class="nav-style">EXHIBITIONS</a>
+        <a href="events.html"  class="nav-style">EVENTS</a>
+
+        <div class="dropdown">
+            <a class="nav-style" onclick="myFunction()">ARCHIVE</a>
+            <div class="dropbtn">
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="archive3.html">MET 1</a>
+                    <a href="index.html">MET 2</a>
+                    <a href="index.html">MET 3</a>
+                </div>
+            </div>
+        </div>
+    </ul>
+    <nav>
+        <!--Search Bar-->
+        <div id="bar">
+            <form>
+                <input type="search" name="bar" placeholder="Search">
+                <input type="submit" value="Go">
+            </form>
+        </div>
+        <!--Tittle-->
+        <div class="container">
+            <p>The Metropolitan Museum of Art</p>
+        </div>
+    </nav>
+</header>
+<hr>
+
+<div class="test">
+
+</div>
+<figure>
+    <p><img id="artist" >
+        <figcaption><div id="artists"></div></figcaption>
+
+</figure>
+
+
+<script src="main.js" charset="utf-8"></script>
+
+<hr>
+<footer>
+    <!--Contacts Table-->
+    <table class="ctable">
+        <tr>
+            <th>
+                <p><a href="contacts.php">Contacts</a></p>
+                <p><a href="aboutthemet.html">About</a></p>
+                <p><a href="index.html">Press</a></p>
+            </th>
+            <th> <img src="images/museums/img1.jpg"></th>
+            <th> <img src="images/museums/img2.jpg"></th>
+            <th> <img src="images/museums/img3.jpg"></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <h4>The Met Fifth Avenue</h4>
+                <p>1000 Fifth Avenue</p>
+                <p>New York, NY 10028</p>
+                <p>Phone: 212-535-7710</p>
+            </td>
+            <td>
+                <h4>The Met Breuer</h4>
+                <p>945 Madison Avenue</p>
+                <p>New York, NY 10021</p>
+                <p>Phone: 212-731-1675</p>
+            </td>
+            <td>
+                <h4>The Met Cloisters</h4>
+                <p>99 Margaret Corbin Drive</p>
+                <p>New York, NY 10040</p>
+                <p>Phone: 212-923-3700</p>
+            </td>
+        </tr>
+    </table>
+    <section id="fcontainer">
+        <!--NewsLetter-->
+        <div class="newsletter">
+            <form action="newsletter.php" method="POST">
+                <input type="email" name="email" placeholder="Enter Email...">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+        <!--Icons-->
+        <div class="icons">
+            <ul>
+                <li><a href="https://www.facebook.com/metmuseum/">
+                    <img width="40" height="40" src="images/icons/facebook.png"></a></li>
+                <li><a href="https://www.instagram.com/metmuseum/?hl=pt">
+                    <img width="40" height="40" src="images/icons/instagram.png"></a></li>
+                <li><a href="hhttps://www.pinterest.pt/metmuseum/">
+                    <img width="40" height="40" src="images/icons/pinterest.png"></a></li>
+                <li><a href="https://twitter.com/metmuseum">
+                    <img width="40" height="40" src="images/icons/twitter.png"></a></li>
+            </ul>
+        </div>
+    </section>
+</footer>
+</body>
+</html>

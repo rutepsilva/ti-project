@@ -1,0 +1,131 @@
+<!--
+Para efeitos académicos, relativos à cadeira de Tecnologias da Internet
+
+-->
+
+<!DOCTYPE html>
+  <html>
+    <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="author" content="Jéssica Vidas & Rute Silva">
+          <meta name="description" content="MET Website">
+          <title>About</title>
+          <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+          <link href="https://fonts.googleapis.com/css?family=Catamaran|Lora" rel="stylesheet">
+          <link rel="stylesheet" href="style.css">
+          <script src="main.js"></script>
+      </head>
+    <body>
+      <header>
+        <div class="row">
+            <!--Logo-->
+            <div class="logo">
+                  <a href="index.html">
+                      <img src="images/themet.png"></a>
+            </div>
+        </div>
+          <!--Menu-->
+          <ul class="main-nav">
+              <a href="index.html"  class="nav-style">HOME</a>
+              <a href="exhibitions.html"  class="nav-style">EXHIBITIONS</a>
+              <a href="events.html"  class="nav-style">EVENTS</a>
+
+              <div class="dropdown">
+                  <a class="nav-style" onclick="myFunction()">ARCHIVE</a>
+                  <div class="dropbtn">
+                      <div class="dropdown-content" id="myDropdown">
+                          <a href="archive3.html">MET 1</a>
+                          <a href="index.html">MET 2</a>
+                          <a href="index.html">MET 3</a>
+                      </div>
+                  </div>
+              </div>
+          </ul>
+          <nav>
+              <!--Search Bar-->
+              <div id="bar">
+                  <form>
+                      <input type="search" name="bar" placeholder="Search">
+                      <input type="submit" value="Go">
+                  </form>
+              </div>
+              <!--Tittle-->
+              <div class="container">
+                  <p>The Metropolitan Museum of Art</p>
+              </div>
+          </nav>
+      </header>
+      <!--Image-->
+      <section id="showcase2">
+          <img src="images/aboutus.jpg">
+      </section>
+      <hr>
+      <!--About The Met-->
+      <div class="about">
+          <h1>About The Met</h1>
+          <p>For academic purposes, relating to the Internet Technologies chair</p>
+          <p>The Met presents over 5,000 years of art from around the world for everyone to experience and enjoy. The Museum lives in three iconic sites in New York City: The Met Fifth Avenue, The Met Breuer, and The Met Cloisters. Millions of people also take part in The Met experience online.</p>
+          <p>Since it was founded in 1870, The Met has always aspired to be more than a treasury of rare and beautiful objects. Every day, art comes alive in the Museum's galleries and through its exhibitions and events, revealing both new ideas and unexpected connections across time and across cultures.</p>
+      </div>
+    <hr>
+      <footer>
+          <!--Contacts Table-->
+          <table class="ctable">
+              <tr>
+                  <th>
+                      <p><a href="contacts.php">Contacts</a></p>
+                      <p><a href="aboutthemet.html">About</a></p>
+                      <p><a href="index.html">Press</a></p>
+                  </th>
+                  <th> <img src="images/museums/img1.jpg"></th>
+                  <th> <img src="images/museums/img2.jpg"></th>
+                  <th> <img src="images/museums/img3.jpg"></th>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td>
+                      <h4>The Met Fifth Avenue</h4>
+                      <p>1000 Fifth Avenue</p>
+                      <p>New York, NY 10028</p>
+                      <p>Phone: 212-535-7710</p>
+                  </td>
+                  <td>
+                      <h4>The Met Breuer</h4>
+                      <p>945 Madison Avenue</p>
+                      <p>New York, NY 10021</p>
+                      <p>Phone: 212-731-1675</p>
+                  </td>
+                  <td>
+                      <h4>The Met Cloisters</h4>
+                      <p>99 Margaret Corbin Drive</p>
+                      <p>New York, NY 10040</p>
+                      <p>Phone: 212-923-3700</p>
+                  </td>
+              </tr>
+          </table>
+          <section id="fcontainer">
+              <!--NewsLetter-->
+              <div class="newsletter">
+                  <form action="newsletter.php" method="POST">
+                      <input type="email" name="email" placeholder="Enter Email...">
+                      <button type="submit" class="button_1">Subscribe</button>
+                  </form>
+              </div>
+              <!--Icons-->
+              <div class="icons">
+                  <ul>
+                      <li><a href="https://www.facebook.com/metmuseum/">
+                          <img width="40" height="40" src="images/icons/facebook.png"></a></li>
+                      <li><a href="https://www.instagram.com/metmuseum/?hl=pt">
+                          <img width="40" height="40" src="images/icons/instagram.png"></a></li>
+                      <li><a href="hhttps://www.pinterest.pt/metmuseum/">
+                          <img width="40" height="40" src="images/icons/pinterest.png"></a></li>
+                      <li><a href="https://twitter.com/metmuseum">
+                          <img width="40" height="40" src="images/icons/twitter.png"></a></li>
+                  </ul>
+              </div>
+          </section>
+      </footer>
+    </body>
+  </html>
